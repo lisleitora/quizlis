@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="quizdalis.Views.q2Page">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Aqua"> <Label Text="Q2     TEMA:inglês" TextColor="Blue" FontSize="20" Margin="0,40"></Label>
+            <Image Source="q2.png" HeightRequest="100"></Image>
+            <Frame VerticalOptions="CenterAndExpand" Margin="20"><StackLayout>
+                <Label Text="Cócegas em inglês é tocle?" TextColor="LimeGreen" FontSize="30"></Label>
+        </StackLayout></Frame>
+            
+            <Button BackgroundColor="LightCoral"
+                Text="sim" TextColor="White" Margin="20" Clicked="OnFail">
+
+            </Button>
+            
+            <Button BackgroundColor="LightCoral"
+                Text="não" TextColor="White" Margin="20" Clicked="OnSuccess"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

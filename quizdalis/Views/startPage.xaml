@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="quizdalis.Views.startPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Aqua">
+            <Frame VerticalOptions="CenterAndExpand" Margin="20"><StackLayout>
+            <Label Text="Quiz da Lis" TextColor="LightCoral" FontSize="80"></Label> 
+        </StackLayout></Frame>
+            <Image Source="start" HeightRequest="150"></Image>
+            <Label Text="feito por:lisleitora@gmail.com de 9 anos" Margin="10"></Label>
+            <Button BackgroundColor="LightCoral"
+                Text="começar" TextColor="White" Margin="20" Clicked="Button_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="quizdalis.Views.winnerPage">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Aqua">
+            <Image Source="winner.jpg" HeightRequest="100" Margin="20"></Image>
+            <Frame VerticalOptions="CenterAndExpand" Margin="20"><StackLayout>
+            <Label Text="Você acertou" TextColor="LimeGreen" FontSize="70"></Label> 
+        </StackLayout></Frame>
+            
+            <Button BackgroundColor="LightCoral"
+                Text="voltar ao início" TextColor="White" Margin="20" Clicked="OnSuccess"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

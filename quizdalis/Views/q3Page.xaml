@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="quizdalis.Views.q3Page">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Aqua"> <Label
+            Text="Q3     TEMA:corpo humano" TextColor="Red" FontSize="20" Margin="0,40"></Label>
+            <Image Source="q3.png" HeightRequest="80"></Image>
+            <Frame VerticalOptions="CenterAndExpand" Margin="10"><StackLayout>
+                <Label Text="O osso dos dedos se chama fémur?" TextColor="LimeGreen" FontSize="30"></Label>
+        </StackLayout></Frame>
+            
+            <Button BackgroundColor="LightCoral"
+                Text="sim" TextColor="White" Margin="20" Clicked="OnFail"></Button>
+            
+            <Button BackgroundColor="LightCoral"
+                Text="não" TextColor="White" Margin="20" Clicked="OnSuccess"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

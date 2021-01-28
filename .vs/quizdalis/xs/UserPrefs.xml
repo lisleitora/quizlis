@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{98199611-0B59-44C6-80B2-9B01022F0615}|Default">
+  <MonoDevelop.Ide.ItemProperties.quizdalis.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.62209ED0-58B0-47E7-9623-68458F1E069E" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="quizdalis" expanded="True">
+            <Node name="quizdalis" expanded="True">
+              <Node name="Views" expanded="True">
+                <Node name="q1Page.xaml" selected="True" />
+              </Node>
+            </Node>
+            <Node name="quizdalis.Android" expanded="True" />
+            <Node name="quizdalis.iOS" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

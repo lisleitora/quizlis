@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    x:Class="quizdalis.Views.q1Page"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="CadetBlue"> 
+            <Label
+                Margin="0,40"
+                FontSize="20"
+                Text="Q1     TEMA:história"
+                TextColor="Gray" />
+            <Image HeightRequest="100" Source="q1.png" />
+            <Frame Margin="20" VerticalOptions="CenterAndExpand">
+                <StackLayout>
+                    <Label
+                        FontSize="30"
+                        Text="Einstein nasceu em 1879?"
+                        TextColor="LimeGreen" />
+                </StackLayout>
+            </Frame>
+
+            <Button
+                Margin="20"
+                BackgroundColor="LightCoral"
+                Clicked="OnSuccess"
+                Text="sim"
+                TextColor="White" />
+
+            <Button
+                Margin="20"
+                BackgroundColor="LightCoral"
+                Clicked="OnFail"
+                Text="não"
+                TextColor="White" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

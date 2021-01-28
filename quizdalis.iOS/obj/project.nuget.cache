@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "KC4xYraIJWnFKoQekEfZDWcOpsJCcApPyqw/sIaWZj8I+BJyIHT+mQ8Umsz5omLJKSgR75dERVsmrL6XUHQfWQ==",
+  "success": true,
+  "projectFilePath": "/Users/macbookpro15/Projects/quizdalis/quizdalis.iOS/quizdalis.iOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/macbookpro15/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
+    "/Users/macbookpro15/.nuget/packages/xamarin.essentials/1.3.1/xamarin.essentials.1.3.1.nupkg.sha512",
+    "/Users/macbookpro15/.nuget/packages/xamarin.forms/4.4.0.991265/xamarin.forms.4.4.0.991265.nupkg.sha512"
+  ],
+  "logs": []
+}
